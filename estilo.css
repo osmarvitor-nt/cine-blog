@@ -1,0 +1,155 @@
+/* Limpar formatações padrão */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+
+#area-logo, #area-menu {
+	padding: 10px;
+	text-align: center;
+	padding: 15px;
+}
+
+#area-logo img {
+	width: 60px;
+}
+
+#area-cabecalho {
+	background-image: url(arquivos/logo-background.jpg);
+	background-position: center;
+}
+
+#area-cabecalho a {
+	text-decoration: none;
+}
+
+#area-principal {
+	width: 1920px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#area-postagens {
+	width: 900px;
+	float: left;
+	margin-left: 300px;
+}
+
+
+#menu-lateral {
+	width: 300px;
+	float: right;
+	margin-right: 300px;
+	margin-top: 10px;
+	padding: 10px;
+	background: #d9d4d4;
+}
+
+.titulo-menu-lateral {
+	color: white;
+	text-align: center;
+	background: #6e6a6a;
+	padding: 5px;
+	border-radius: 30%;
+	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+
+.postagens-menu-lateral img {
+	width: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 25px;
+	margin-left: 25px;
+	transition: all 0.5s;
+    cursor: pointer;
+}
+
+.postagens-menu-lateral img:hover {
+	-webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.postagens img {
+	width: 900px;
+	padding: none;
+	transition: all 0.5s;
+    cursor: pointer;
+}
+
+.postagens img:hover {
+	-webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.postagens {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.postagens a:link, .postagens a:visited{
+	text-decoration: none;
+	color: #e8a833;
+}
+
+.previa-texto {
+	width: 800px;
+	text-align: justify;
+	margin-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#assinatura {
+	text-align: center;
+}
+
+#assinatura img {
+	width: 50px;
+	border-radius: 50%;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+}
+
+.blog {
+	color: #ede964;
+}
+
+#area-menu a {
+	text-decoration: none;
+}
+
+#area-menu a:link, #area-menu a:visited {
+	color:  #FFF;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 30%;
+}
+
+#area-menu a:hover {
+	color: black;
+	background: #FFF;
+}
